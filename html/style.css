@@ -121,7 +121,7 @@
     left: 0.3vh;
     right: 0;
     top: 9vh;
-    height: 87vh;
+    height: 77vh;
     width: 92%;
     overflow-y: scroll !important;
 }
@@ -143,10 +143,9 @@
     text-align: center;
     line-height: 4.8vh;
     width: 60%;
-    height: 40%;
     margin: 0 auto;
     top: 2.3vh;
-    background-color: #e9e9e9;
+    background-color: #516cf0;
     border-radius: 0.75vh;
     transition: all 1s linear;
 }
@@ -392,6 +391,11 @@
     top: 6.2vh;
 }
 
+.roomOutfits {
+    left: 3.48vh;
+    top: 21.5vh;
+}
+
 .clothing {
     left: 3.48vh;
     top: 21.5vh;
@@ -451,7 +455,8 @@
     transition: all 1s linear;
     background: var(--clothing-menu-bg-color);
     border: 1px solid rgba(255, 255, 255, 0.21);
-    border-radius: 2px;
+    border-radius: 50px;
+    height: -webkit-fill-available;
 }
 
 .clothing-menu-option-button:hover {
@@ -590,7 +595,7 @@
 }
 
 .change-camera-button:hover {
-    background: #dc143c;
+    background: #232323;
     cursor: pointer;
 }
 
